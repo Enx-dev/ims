@@ -5,3 +5,7 @@
 body {
   background-color: #f1f1f1;
 }
+
+.fancy_shadow {
+  box-shadow: 0 0 40px 90px #f5f4f0;
+}

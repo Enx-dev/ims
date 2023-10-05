@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "company": "Smith Electronics",
+        "review":"InventoryPro has transformed the way we manage our electronics inventory. It's accurate, user-friendly, and has saved us time and money.",
+        "rating": 5,
+        "image":"pro_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "company": "Johnson Manufacturing",
+        "review":"InventoryPro helped us reduce overstock by 30%. The results speak for themselves—better profitability and happier customers.",
+        "rating": 4,
+        "image":"pro_2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sarah Johnson",
+        "company": "Johnson Manufacturing",
+        "review":"InventoryPro helped us reduce overstock by 30%. The results speak for themselves—better profitability and happier customers.",
+        "rating": 4,
+        "image":"pro_2.jpg"
+    }
+]

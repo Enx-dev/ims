@@ -1,25 +1,37 @@
 import React from "react";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 type Props = {};
 
 const HeroSection = (props: Props) => {
   return (
-    <section>
-      <div>
-        <h1>Main Heading</h1>
-        <h2>sub Heading</h2>
-        <div>
-          <button>Get Started</button>
-          <button>Learn More</button>
+    <section className="flex container justify-between w-full items-center  ">
+      <div className="w-full text-accent space-y-6">
+        <h1 className="text-6xl font-bold">
+          Inventory<span className="text-primary-800">Pro</span>
+        </h1>
+        <h2 className="text-2xl italic font-light leading-8">
+          Elevate Your Inventory{" "}
+          <span className="text-primary-800">Management</span> Game
+        </h2>
+        <div className="space-x-4">
+          <Button size="lg">Get Started</Button>
+          <Button size="lg" variant="outline">
+            Learn More
+          </Button>
         </div>
       </div>
-      <div>
+      <div className="w-full relative rounded-lg">
         <Image
+          className="rounded-lg shadow-md shadow-secondary-100"
           src="/images/IMS_1.jpg"
-          alt="Picture of the author"
-          width={500}
-          height={500}
+          alt="Hero_Image"
+          width={300}
+          height={300}
+          layout="responsive"
+          quality={70}
+          sizes="(max-width: 640px) 80vw, (max-width: 768px) 50vw, 23vw"
         />
       </div>
     </section>

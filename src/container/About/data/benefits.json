@@ -1,0 +1,27 @@
+[
+        {
+            "id": 1,
+            "label":"Improved efficiency",
+            "text":"With centralized inventory management and automated ordering,you can save time and reduce manual errors."
+        },
+        {
+            "id":2,
+            "label":"Cost savings",
+            "text":"By optimizing your inventory levels and reducing overstock and stockouts, you can lower inventory holding costs and increase profitability."
+        },
+        {
+            "id":3,
+            "label":"Increased accuracy",
+            "text":"Barcode scanning and real-time updates ensure that you always have accurate information about your inventory levels."
+        },
+        {
+            "id":4,
+            "label":"Better visibility",
+            "text":"Reporting and analytics help you gain insights into your inventory performance and make data-driven decisions."
+        },
+        {
+            "id":2,
+            "label":"Scalability",
+            "text":"Whether you&apos;re a startup or an established business, our inventory management software can scale with your needs and help you grow."
+        }
+]
