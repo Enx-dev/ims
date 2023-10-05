@@ -8,7 +8,7 @@ const HeroSection = (props: Props) => {
   return (
     <section className="flex container justify-between w-full items-center  ">
       <div className="w-full text-accent space-y-6">
-        <h1 className="text-6xl font-bold">
+        <h1 className="text-7xl font-bold">
           Inventory<span className="text-primary-800">Pro</span>
         </h1>
         <h2 className="text-2xl italic font-light leading-8">
@@ -22,16 +22,14 @@ const HeroSection = (props: Props) => {
           </Button>
         </div>
       </div>
-      <div className="w-full relative rounded-lg">
+      <div className="w-max relative rounded-lg">
         <Image
           className="rounded-lg shadow-md shadow-secondary-100"
           src="/images/IMS_1.jpg"
           alt="Hero_Image"
-          width={300}
-          height={300}
-          layout="responsive"
-          quality={70}
-          sizes="(max-width: 640px) 80vw, (max-width: 768px) 50vw, 23vw"
+          width={700}
+          height={750}
+          quality={90}
         />
       </div>
     </section>

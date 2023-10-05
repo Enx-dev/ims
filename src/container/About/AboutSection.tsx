@@ -29,7 +29,7 @@ const AboutSection = () => {
         Effortless Inventory Management for Every Business
       </h2>
       <div className="flex justify-between items-stretch">
-        <div className="w-full">
+        <div className="w-max">
           <Image
             className="rounded-lg shadow-md shadow-secondary-100"
             src="/images/IMS_4.jpg"
@@ -37,10 +37,9 @@ const AboutSection = () => {
             width={500}
             height={500}
             quality={100}
-            sizes="(max-width: 640px) 80vw, (max-width: 768px) 50vw, 23vw"
           />
         </div>
-        <div className="w-full body max-w-lg">
+        <div className="w-full body max-w-xl">
           <p className="my-4">
             Say goodbye to inventory headaches. Our cutting-edge Inventory
             Management Software is designed to help businesses of all sizes

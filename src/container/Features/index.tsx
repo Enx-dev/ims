@@ -8,7 +8,7 @@ interface IFeatures {}
 const FeaturesSection = ({}: IFeatures) => {
   return (
     <section
-      className=" container fancy_shadow  space-y-8 subheading antialiased flex flex-col items-center bg-secondary-50/25 shadow-2xl overflow-y-hidden shadow-secondary-50/50"
+      className=" container  space-y-8 subheading antialiased flex flex-col items-center"
       id="Features">
       <h1 className="subheading text-center subpixel-antialiased subheading-accent">
         Key Features

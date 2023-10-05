@@ -74,7 +74,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/images/hero-pattern.svg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        "cta-texture": "url('/images/liquid-cheese.svg')",
       },
       gridTemplateColumns: {
         tesimonial: "repeat(auto-fill, 400px)",

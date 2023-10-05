@@ -13,7 +13,7 @@ interface ITes {
 const TestimonialCard = ({ company, image, name, rating, review }: ITes) => {
   const stars = generateStars(rating);
   return (
-    <div className="shadow-md rounded-md p-4 space-y-2">
+    <div className="shadow-md rounded-md p-4 space-y-2 bg-secondary-50/20">
       <Image
         className="rounded-[33333px]"
         src={`/images/${image}`}
