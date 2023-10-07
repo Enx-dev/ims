@@ -21,16 +21,18 @@ import Image from "next/image";
 import React from "react";
 import data from "./data/benefits.json";
 import ListItem from "./components/ListItem";
+import { forwardRef } from "react";
 
-const AboutSection = () => {
+const AboutSection = forwardRef<HTMLDivElement>(function About(props, ref){
   return (
-    <section className="z-10 container space-y-8">
+    <section ref={ref} id="#about" className="z-10 container space-y-8">
       <h2 className="prose-h1:prose subheading">
         Effortless Inventory Management for Every Business
       </h2>
       <div className="flex justify-between items-stretch">
-        <div className="w-max">
+        <div id="about_img_layer" className="w-max overflow-clip">
           <Image
+            id="about_img"
             className="rounded-lg shadow-md shadow-secondary-100"
             src="/images/IMS_4.jpg"
             alt="Hero_Image"
@@ -58,6 +60,6 @@ const AboutSection = () => {
       </div>
     </section>
   );
-};
+});
 
 export default AboutSection;

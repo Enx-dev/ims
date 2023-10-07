@@ -7,7 +7,7 @@ interface IListItem {
 
 const ListItem = ({ label, text }: IListItem) => {
   return (
-    <li className="body">
+    <li id="about_item" className="body">
       <span className="label">{label}:</span>
       {text}
     </li>

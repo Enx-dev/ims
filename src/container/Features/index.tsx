@@ -2,12 +2,17 @@ import React from "react";
 import GridItems from "./components/GridItems";
 import data from "./data/features.json";
 import { Button } from "@/components/ui/button";
+import { forwardRef } from "react";
 
 interface IFeatures {}
 
-const FeaturesSection = ({}: IFeatures) => {
+const FeaturesSection = forwardRef<HTMLDivElement>(function Features(
+  props,
+  ref
+) {
   return (
     <section
+      ref={ref}
       className=" container  space-y-8 subheading antialiased flex flex-col items-center"
       id="Features">
       <h1 className="subheading text-center subpixel-antialiased subheading-accent">
@@ -23,6 +28,6 @@ const FeaturesSection = ({}: IFeatures) => {
       </Button>
     </section>
   );
-};
+});
 
 export default FeaturesSection;
